@@ -1,2 +1,0 @@
-# terraform-newrelic
-terraform-newrelic
