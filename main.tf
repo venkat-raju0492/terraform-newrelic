@@ -15,7 +15,6 @@ provider "newrelic" {
   region     = "US"
 }
 
-
 module "NRDashBoard" {
   source    = "./plugins/NRDashboard"
   project   = var.project
