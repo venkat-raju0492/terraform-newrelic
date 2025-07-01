@@ -18,6 +18,7 @@ provider "newrelic" {
 
 module "NRDashBoard" {
   source    = "./plugins/NRDashboard"
+  project   = var.project
   env       = var.environment
   resources = local.resource
 }
